@@ -33,5 +33,7 @@ Use the SignInForm component to allow users to sign in.
 
 ## Technologies Used
 React: JavaScript library for building user interfaces.
+
 Tailwind CSS: Utility-first CSS framework
+
 npm: Node package manager for installing and managing project dependencies.
