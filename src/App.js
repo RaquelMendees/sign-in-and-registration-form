@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// I import the React library
+import React from "react";
+// In this line I imported the SignInForm component
+import SignInForm from "./components/SignInForm";
+// I import Tailwind CSS styles
+import "./index.css";
 
+// I have defined the main App component
 function App() {
   return (
+    // This is the wrapper div with Tailwind CSS classes
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* I render the SignInForm component */}
+      <SignInForm />
     </div>
   );
 }
 
+// I exported the App component as the default export
 export default App;
